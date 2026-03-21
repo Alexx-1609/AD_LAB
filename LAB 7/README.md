@@ -233,3 +233,7 @@
         android:layout_marginBottom="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+## Output
+<img width="1384" height="839" alt="Screenshot 2026-03-21 201852" src="https://github.com/user-attachments/assets/3923e8ef-c078-45e6-9e7e-ff661e32bc5e" />
+
