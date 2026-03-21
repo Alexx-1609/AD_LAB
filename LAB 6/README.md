@@ -154,9 +154,9 @@
          }
        }
 
-  ## Output
-  <img width="534" height="597" alt="Screenshot 2026-03-21 205940" src="https://github.com/user-attachments/assets/86b9e66a-e883-405f-b27a-872560f4cb86" />
-
         android:textStyle="bold"/>
 
-</LinearLayout>
+    </LinearLayout>
+
+  ## Output
+  <img width="534" height="597" alt="Screenshot 2026-03-21 205940" src="https://github.com/user-attachments/assets/86b9e66a-e883-405f-b27a-872560f4cb86" />
