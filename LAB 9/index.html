@@ -1,0 +1,145 @@
+<!-- Name: Utkarsh Raj -->
+<!-- Roll No: 2330416 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utkarsh Raj — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Utkarsh Raj, Data Analytics Enthusiast" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ======== NAVBAR ======== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Utkarsh<span class="accent">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <!-- Theme toggle switch -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <span class="toggle-icon" id="toggleIcon">☀️</span>
+        </button>
+        <!-- Mobile hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======== HERO / HOME ======== -->
+  <section id="home" class="hero">
+    <div class="hero-content fade-in">
+      <p class="hero-subtitle">Data Analytics Enthusiast</p>
+      <h1 class="hero-title">Hi, I'm <span class="accent">Utkarsh</span><br/>Raj</h1>
+      <p class="hero-tagline">Turning raw data into actionable insights through visualization and analysis.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ======== ABOUT ======== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title fade-in">About <span class="accent">Me</span></h2>
+      <div class="section-bar fade-in"></div>
+      <div class="about-grid fade-in">
+        <div class="about-text">
+          <p>I'm a passionate data analytics enthusiast currently pursuing B.Tech in ECSE at KIIT University. I love diving deep into datasets, building dashboards, and extracting meaningful patterns that drive decisions. My toolkit spans from SQL queries to Power BI reports, and I'm always exploring new ways to make data tell a story.</p>
+        </div>
+        <div class="about-details">
+          <div class="detail-item">
+            <span class="detail-label">Education</span>
+            <span class="detail-value">B.Tech in ECSE — KIIT University (CGPA: 7.40)</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Email</span>
+            <span class="detail-value">2330416@kiit.ac.in</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Phone</span>
+            <span class="detail-value">+91-8294675371</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SKILLS ======== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">My <span class="accent">Skills</span></h2>
+      <div class="section-bar fade-in"></div>
+      <div class="skills-list fade-in">
+        <!-- Skills are rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== PROJECTS ======== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title fade-in">Featured <span class="accent">Projects</span></h2>
+      <div class="section-bar fade-in"></div>
+      <div class="projects-grid fade-in" id="projectsGrid">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CONTACT ======== -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title fade-in">Get in <span class="accent">Touch</span></h2>
+      <div class="section-bar fade-in"></div>
+      <div class="contact-wrapper fade-in">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2025 Utkarsh Raj. Built with passion.</p>
+      <div class="footer-links">
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://linkedin.com/in/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
